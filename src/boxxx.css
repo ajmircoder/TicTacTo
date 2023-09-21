@@ -1,0 +1,24 @@
+.mainDiv{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+button{
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* background: whitesmoke !important; */
+color:magenta;
+font-size: 30px !important;
+}
+.h2{
+    display: flex;
+    justify-content: space-between;
+}
+.reset{
+    margin: auto;
+}
