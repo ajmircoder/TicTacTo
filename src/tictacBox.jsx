@@ -55,9 +55,10 @@ export default function TicTacTo() {
         }
         return arr;
     }
+
     
     return <>
-         <h1>Tic-Tac-Toe</h1>
+         <h1   >Tic-Tac-Toe</h1>
          <h2 className='h2'><span>Player1 : X</span><span>Player2 : O</span></h2>
         <div className="mainDiv">{array()}</div>
         <h3>{winner}{winner ? ' 🥳🥳🥳🥳' : ''}</h3>
